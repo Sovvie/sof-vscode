@@ -9,7 +9,7 @@
 // refreshed in the background (If-None-Match, so an unchanged package costs a 304), which keeps
 // tags from flickering back to "checking…" every few minutes.
 
-const DEFAULT_REGISTRY_URL = "https://sov.gg/sof-index";
+const DEFAULT_REGISTRY_URL = "https://sof.sov.gg";
 const WALLY_INDEX_URL = "https://raw.githubusercontent.com/UpliftGames/wally-index/main";
 
 // What the sof registry accepts as a name segment once lowercased (providers/sof.js).

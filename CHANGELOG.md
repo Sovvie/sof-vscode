@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- **New default registry.** The sof registry moved to https://sof.sov.gg, so that is where the extension looks when `sof.registryUrl` and `SOF_REGISTRY_URL` are both empty. A setting or environment variable that still names the old address keeps pointing there and should be changed.
+
 ## 0.1.1
 
 - **Hover card tidied.** One card, not two when hovering where the tag sits; each fact is stated once; the verdict is coloured with the same theme colours as the tags (so `workbench.colorCustomizations` for `sof.tag.*` applies to both).

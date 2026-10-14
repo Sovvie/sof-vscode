@@ -1,6 +1,6 @@
 # sof for VS Code and Cursor
 
-Editor support for [sof](https://github.com/Sovvie/sof) project files. It reads every `sof.toml`, `.sof.toml` and `*.sof.toml` (such as `packages.sof.toml`) and checks each package against the [sof package index](https://sov.gg/sof-index).
+Editor support for [sof](https://github.com/Sovvie/sof) project files. It reads every `sof.toml`, `.sof.toml` and `*.sof.toml` (such as `packages.sof.toml`) and checks each package against the [sof package index](https://sof.sov.gg).
 
 ![A sof.toml with a tag after each dependency](images/tags.png)
 
@@ -77,7 +77,7 @@ Syntax highlighting for TOML is not part of this extension; pair it with a TOML 
 
 | Setting | Default | |
 | --- | --- | --- |
-| `sof.registryUrl` | empty | Index to use. Empty means `$SOF_REGISTRY_URL`, then `https://sov.gg/sof-index`. Ignored in untrusted workspaces. |
+| `sof.registryUrl` | empty | Index to use. Empty means `$SOF_REGISTRY_URL`, then `https://sof.sov.gg`. Ignored in untrusted workspaces. |
 | `sof.wally.enabled` | `true` | Look up names the sof index lacks in the Wally index, like the CLI. |
 | `sof.inlineTags.enabled` | `true` | Show the tags. |
 | `sof.inlineTags.showUpToDate` | `true` | Also tag dependencies that are already current. Turn off to only see what needs attention. |
@@ -98,7 +98,7 @@ Two read-only requests, the same the CLI makes: `GET <registry>/index/<scope>/<n
 npm install
 npm test                  # unit tests (parser, versions, registry client, completion, hover)
 npm run typecheck         # tsc over the JSDoc types
-npm run smoke             # the real registry client against https://sov.gg/sof-index
+npm run smoke             # the real registry client against https://sof.sov.gg
 npm run test:integration  # the built extension in a real VS Code, against a mock registry
 npm run screenshots       # regenerates images/
 npm run build             # dist/extension.js (esbuild)

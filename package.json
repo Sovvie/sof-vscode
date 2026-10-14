@@ -2,7 +2,7 @@
   "name": "sof",
   "displayName": "sof",
   "description": "Version tags, update hints and package/version IntelliSense for sof.toml, backed by the sof package index.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "sovvie",
   "license": "MIT",
   "private": true,
@@ -99,7 +99,7 @@
         "sof.registryUrl": {
           "type": "string",
           "default": "",
-          "markdownDescription": "Base URL of the sof package index. Empty uses the `SOF_REGISTRY_URL` environment variable, then `https://sov.gg/sof-index`.",
+          "markdownDescription": "Base URL of the sof package index. Empty uses the `SOF_REGISTRY_URL` environment variable, then `https://sof.sov.gg`.",
           "scope": "window"
         },
         "sof.wally.enabled": {

@@ -1,7 +1,7 @@
 "use strict";
 
 // Runs the extension's real registry client and tag logic against the live registry
-// (https://sov.gg/sof-index by default; SOF_REGISTRY_URL overrides). Needs network.
+// (https://sof.sov.gg by default; SOF_REGISTRY_URL overrides). Needs network.
 //   npm run smoke
 
 const { Registry, resolveRegistryUrl } = require("../src/registry");
